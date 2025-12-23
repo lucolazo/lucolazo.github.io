@@ -3,63 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio | Ana Lucía Colazo</title>
+  <title>Ana Colazo | Portafolio</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- ICONOS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
   <!-- HEADER -->
   <header class="header">
-    <h1>Ana Lucía Colazo</h1>
+    <h1>Ana Colazo</h1>
     <p>Estudiante de Licenciatura en Sistemas de Información</p>
+    <div class="header-links">
+      <a href="https://github.com/TUUSUARIO" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="mailto:ana@email.com">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+    </div>
   </header>
 
   <!-- ABOUT -->
   <section class="section">
-    <h2>Sobre mí</h2>
+    <h2><i class="fas fa-user"></i> Sobre mí</h2>
     <p>
-      Soy estudiante de Sistemas con interés en el desarrollo de software,
-      estructuras de datos y resolución de problemas.
-      Tengo experiencia trabajando con Java y Python en proyectos académicos.
+      Soy estudiante de Licenciatura en Sistemas de Información con fuerte
+      interés en el desarrollo de software, algoritmos y estructuras de datos.
+      He trabajado en proyectos académicos utilizando Java y Python,
+      aplicando TDA, colas, pilas, grafos y simulaciones.
     </p>
   </section>
 
   <!-- SKILLS -->
   <section class="section">
-    <h2>Habilidades</h2>
-    <ul class="skills">
-      <li>Java</li>
-      <li>Python</li>
-      <li>Estructuras de Datos</li>
-      <li>Git & GitHub</li>
-      <li>HTML & CSS</li>
-    </ul>
+    <h2><i class="fas fa-code"></i> Tecnologías</h2>
+
+    <div class="skills">
+      <span><i class="fab fa-java"></i> Java</span>
+      <span><i class="fab fa-python"></i> Python</span>
+      <span><i class="fab fa-html5"></i> HTML</span>
+      <span><i class="fab fa-css3-alt"></i> CSS</span>
+      <span><i class="fab fa-git-alt"></i> Git</span>
+      <span><i class="fab fa-github"></i> GitHub</span>
+    </div>
   </section>
 
   <!-- PROJECTS -->
   <section class="section">
-    <h2>Proyectos</h2>
+    <h2><i class="fas fa-folder-open"></i> Proyectos</h2>
 
     <div class="projects">
 
       <div class="project-card">
-        <h3>WWW</h3>
+        <h3>Gestión de Empleados</h3>
         <p>
-          wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+          Sistema en Java para administrar empleados aplicando
+          POO, listas y validaciones.
         </p>
-        <a href="https://github.com/TUUSUARIO/gestion-empleados-java" target="_blank">
-          Ver en GitHub
-        </a>
+        <div class="project-links">
+          <a href="https://github.com/TUUSUARIO/gestion-empleados-java" target="_blank">
+            <i class="fab fa-github"></i> Código
+          </a>
+        </div>
       </div>
 
       <div class="project-card">
-        <h3>WWW</h3>
+        <h3>Simulador de Aeropuerto</h3>
         <p>
-          wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+          Simulación de despegues y aterrizajes utilizando colas con prioridad
+          y control de tiempos en Python.
         </p>
-        <a href="https://github.com/TUUSUARIO/simulador-aeropuerto" target="_blank">
-          Ver en GitHub
-        </a>
+        <div class="project-links">
+          <a href="https://github.com/TUUSUARIO/simulador-aeropuerto" target="_blank">
+            <i class="fab fa-github"></i> Código
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Estructuras de Datos</h3>
+        <p>
+          Implementación de pilas, colas, listas y grafos utilizando
+          clases personalizadas.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/TUUSUARIO/tda-estructuras" target="_blank">
+            <i class="fab fa-github"></i> Código
+          </a>
+        </div>
       </div>
 
     </div>
@@ -67,14 +103,22 @@
 
   <!-- CONTACT -->
   <section class="section">
-    <h2>Contacto</h2>
-    <p>Email: <a href="mailto:anaacolazo@gmail.com">anaacolazo@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/lucolazo" target="_blank">github.com/lucolazo</a></p>
+    <h2><i class="fas fa-address-card"></i> Contacto</h2>
+    <p>
+      <i class="fas fa-envelope"></i>
+      ana@email.com
+    </p>
+    <p>
+      <i class="fab fa-github"></i>
+      <a href="https://github.com/TUUSUARIO" target="_blank">
+        github.com/TUUSUARIO
+      </a>
+    </p>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>© 2025 Ana Lucía Colazo</p>
+    <p>© 2025 Ana Colazo · Portafolio</p>
   </footer>
 
 </body>
